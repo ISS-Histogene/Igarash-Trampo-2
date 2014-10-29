@@ -46,7 +46,7 @@ public class EightPuzzle {
 }
 
     public static int diferencaMatriz(int[][] matriz){
-        int[][] original = {{1, 4, 7},{2, 5, 8},{3, 6, 0}};
+        int[][] original = {{1, 2, 3},{4, 5, 6},{7, 8, 0}};
         int dif = 0;
         int a;
         int b;
@@ -61,13 +61,9 @@ public class EightPuzzle {
                     }
                     else{
 
-                        int targetB = (matriz[a][b] - 1) / N; // expected x-coordinate (row)
-                        int targetA = (matriz[a][b] - 1) % N; // expected y-coordinate (col)
-                        int db = Math.abs(b - targetB); // x-distance to expected coordinate
-                        int da = Math.abs(a - targetA); // y-distance to expected coordinate
-                        int dab = da + db;
-
-                        dif += dab;
+                        if(matriz[a][b]!=original[a][b]){
+                            dif++;
+                        }
 
 
                     }
@@ -122,6 +118,7 @@ public class EightPuzzle {
             Iterator iterator = open_list.keySet().iterator();
             Integer key = (Integer) iterator.next();
             String matrizatualx1 = open_list.asMap().get(key).iterator().next();
+            //System.out.println("Arvores processadas: "+arvoresprocessadas);
             Estado estadomenor = processados.get(matrizatualx1);
             int altura = estadomenor.getCusto();
             //LOCALIZA O ZERO
@@ -151,7 +148,7 @@ public class EightPuzzle {
                 System.out.println(resposta);
                 System.out.println("\n---------------------------------------\n\n");
                 inter.setText(resposta.toString());
-                return 0;
+                return 1;
             }
             arvoresprocessadas++;
             int[][] matrizatualx = estadomenor.getMatriz();

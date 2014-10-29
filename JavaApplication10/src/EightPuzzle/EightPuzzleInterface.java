@@ -5,6 +5,7 @@
  */
 package EightPuzzle;
 
+import javax.swing.JOptionPane;
 import javax.swing.JTextField;
 
 /**
@@ -146,7 +147,13 @@ public class EightPuzzleInterface extends javax.swing.JFrame {
         matriz[2][0] = Integer.parseInt(this.a31.getText());
         matriz[2][1] = Integer.parseInt(this.a32.getText());
         matriz[2][2] = Integer.parseInt(this.a33.getText());
-        EightPuzzle.principal(matriz, this.respuesta);
+        int retorno = EightPuzzle.principal(matriz, this.respuesta);
+        if (retorno==0){
+            JOptionPane.showMessageDialog(null, "Resposta nao encontrada!");
+        }
+        else{
+             JOptionPane.showMessageDialog(null, "Resposta encontrada!");
+        }
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void respuestaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_respuestaActionPerformed
