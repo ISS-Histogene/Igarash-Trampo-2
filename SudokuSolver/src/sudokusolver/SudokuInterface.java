@@ -293,387 +293,173 @@ public class SudokuInterface extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("Times New Roman", 0, 24)); // NOI18N
         jLabel1.setText("Sudoku Solver");
 
-        a80.setText("8");
-        a80.setEnabled(false);
         a80.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 a80ActionPerformed(evt);
             }
         });
 
-        a03.setText("7");
-        a03.setEnabled(false);
-
-        a81.setText("9");
-        a81.setEnabled(false);
-
-        a01.setText("2");
-        a01.setEnabled(false);
-
-        a02.setText("3");
-        a02.setEnabled(false);
         a02.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 a02ActionPerformed(evt);
             }
         });
 
-        a00.setText("1");
-        a00.setEnabled(false);
         a00.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 a00ActionPerformed(evt);
             }
         });
 
-        a12.setText("6");
-        a12.setEnabled(false);
-
-        a11.setText("5");
-        a11.setEnabled(false);
         a11.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 a11ActionPerformed(evt);
             }
         });
 
-        a10.setText("4");
-        a10.setEnabled(false);
-
-        a22.setText("9");
-        a22.setEnabled(false);
-
-        a42.setText("5");
-        a42.setEnabled(false);
-
-        a31.setText("1");
-        a31.setEnabled(false);
-
-        a32.setText("2");
-        a32.setEnabled(false);
         a32.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 a32ActionPerformed(evt);
             }
         });
 
-        a30.setText("3");
-        a30.setEnabled(false);
-
-        a41.setText("4");
-        a41.setEnabled(false);
         a41.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 a41ActionPerformed(evt);
             }
         });
 
-        a21.setText("8");
-        a21.setEnabled(false);
         a21.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 a21ActionPerformed(evt);
             }
         });
 
-        a40.setText("6");
-        a40.setEnabled(false);
-
-        a20.setText("7");
-        a20.setEnabled(false);
-
-        a72.setText("4");
-        a72.setEnabled(false);
-
-        a61.setText("3");
-        a61.setEnabled(false);
-
-        a62.setText("1");
-        a62.setEnabled(false);
         a62.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 a62ActionPerformed(evt);
             }
         });
 
-        a60.setText("2");
-        a60.setEnabled(false);
-
-        a71.setText("6");
-        a71.setEnabled(false);
         a71.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 a71ActionPerformed(evt);
             }
         });
 
-        a51.setText("7");
-        a51.setEnabled(false);
         a51.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 a51ActionPerformed(evt);
             }
         });
 
-        a70.setText("5");
-        a70.setEnabled(false);
-
-        a50.setText("9");
-        a50.setEnabled(false);
-
-        a52.setText("8");
-        a52.setEnabled(false);
-
-        a55.setText("5");
-        a55.setEnabled(false);
-
-        a44.setText("1");
-        a44.setEnabled(false);
-
-        a45.setText("2");
-        a45.setEnabled(false);
         a45.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 a45ActionPerformed(evt);
             }
         });
 
-        a43.setText("3");
-        a43.setEnabled(false);
-
-        a54.setText("4");
-        a54.setEnabled(false);
         a54.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 a54ActionPerformed(evt);
             }
         });
 
-        a34.setText("7");
-        a34.setEnabled(false);
         a34.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 a34ActionPerformed(evt);
             }
         });
 
-        a53.setText("6");
-        a53.setEnabled(false);
-
-        a33.setText("9");
-        a33.setEnabled(false);
-
-        a85.setText("4");
-        a85.setEnabled(false);
-
-        a74.setText("3");
-        a74.setEnabled(false);
-
-        a75.setText("1");
-        a75.setEnabled(false);
         a75.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 a75ActionPerformed(evt);
             }
         });
 
-        a04.setText("8");
-        a04.setEnabled(false);
         a04.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 a04ActionPerformed(evt);
             }
         });
 
-        a73.setText("2");
-        a73.setEnabled(false);
-
-        a82.setText("7");
-        a82.setEnabled(false);
-
-        a84.setText("6");
-        a84.setEnabled(false);
         a84.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 a84ActionPerformed(evt);
             }
         });
 
-        a64.setText("9");
-        a64.setEnabled(false);
         a64.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 a64ActionPerformed(evt);
             }
         });
 
-        a83.setEnabled(false);
-
-        a05.setText("9");
-        a05.setEnabled(false);
-
-        a63.setText("8");
-        a63.setEnabled(false);
-
-        a65.setText("7");
-        a65.setEnabled(false);
-
-        a14.setText("2");
-        a14.setEnabled(false);
-
-        a15.setText("3");
-        a15.setEnabled(false);
         a15.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 a15ActionPerformed(evt);
             }
         });
 
-        a13.setText("1");
-        a13.setEnabled(false);
-
-        a25.setText("6");
-        a25.setEnabled(false);
-
-        a24.setText("5");
-        a24.setEnabled(false);
         a24.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 a24ActionPerformed(evt);
             }
         });
 
-        a23.setText("4");
-        a23.setEnabled(false);
-
-        a35.setText("8");
-        a35.setEnabled(false);
-
-        a87.setText("3");
-        a87.setEnabled(false);
         a87.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 a87ActionPerformed(evt);
             }
         });
 
-        a67.setText("6");
-        a67.setEnabled(false);
         a67.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 a67ActionPerformed(evt);
             }
         });
 
-        a86.setText("2");
-        a86.setEnabled(false);
-
-        a08.setText("6");
-        a08.setEnabled(false);
-
-        a66.setText("5");
-        a66.setEnabled(false);
-
-        a68.setText("4");
-        a68.setEnabled(false);
-
-        a17.setText("8");
-        a17.setEnabled(false);
-
-        a18.setText("9");
-        a18.setEnabled(false);
         a18.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 a18ActionPerformed(evt);
             }
         });
 
-        a16.setText("7");
-        a16.setEnabled(false);
-
-        a58.setText("2");
-        a58.setEnabled(false);
-
-        a47.setText("7");
-        a47.setEnabled(false);
-
-        a48.setText("8");
-        a48.setEnabled(false);
         a48.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 a48ActionPerformed(evt);
             }
         });
 
-        a28.setText("3");
-        a28.setEnabled(false);
-
-        a27.setText("2");
-        a27.setEnabled(false);
         a27.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 a27ActionPerformed(evt);
             }
         });
 
-        a26.setText("1");
-        a26.setEnabled(false);
-
-        a38.setText("5");
-        a38.setEnabled(false);
-
-        a06.setText("4");
-        a06.setEnabled(false);
-
-        a46.setText("9");
-        a46.setEnabled(false);
-
-        a57.setText("1");
-        a57.setEnabled(false);
         a57.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 a57ActionPerformed(evt);
             }
         });
 
-        a37.setText("4");
-        a37.setEnabled(false);
         a37.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 a37ActionPerformed(evt);
             }
         });
 
-        a56.setText("3");
-        a56.setEnabled(false);
-
-        a36.setText("6");
-        a36.setEnabled(false);
-
-        a88.setText("1");
-        a88.setEnabled(false);
-
-        a77.setText("9");
-        a77.setEnabled(false);
-
-        a78.setText("7");
-        a78.setEnabled(false);
         a78.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 a78ActionPerformed(evt);
             }
         });
 
-        a07.setText("5");
-        a07.setEnabled(false);
         a07.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 a07ActionPerformed(evt);
             }
         });
-
-        a76.setText("8");
-        a76.setEnabled(false);
 
         jButton1.setText("Resolver");
         jButton1.addActionListener(new java.awt.event.ActionListener() {

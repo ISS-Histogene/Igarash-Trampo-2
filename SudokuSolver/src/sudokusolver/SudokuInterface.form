@@ -446,573 +446,250 @@
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="a80">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="8"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="a80ActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="a03">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="7"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="a81">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="9"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="a01">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="2"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="a02">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="3"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="a02ActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="a00">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="1"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="a00ActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="a12">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="6"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="a11">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="5"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="a11ActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="a10">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="4"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="a22">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="9"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="a42">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="5"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="a31">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="1"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="a32">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="2"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="a32ActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="a30">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="3"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="a41">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="4"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="a41ActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="a21">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="8"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="a21ActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="a40">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="6"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="a20">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="7"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="a72">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="4"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="a61">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="3"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="a62">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="1"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="a62ActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="a60">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="2"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="a71">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="6"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="a71ActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="a51">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="7"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="a51ActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="a70">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="5"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="a50">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="9"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="a52">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="8"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="a55">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="5"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="a44">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="1"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="a45">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="2"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="a45ActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="a43">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="3"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="a54">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="4"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="a54ActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="a34">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="7"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="a34ActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="a53">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="6"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="a33">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="9"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="a85">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="4"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="a74">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="3"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="a75">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="1"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="a75ActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="a04">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="8"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="a04ActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="a73">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="2"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="a82">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="7"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="a84">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="6"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="a84ActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="a64">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="9"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="a64ActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="a83">
-      <Properties>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="a05">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="9"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="a63">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="8"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="a65">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="7"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="a14">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="2"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="a15">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="3"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="a15ActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="a13">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="1"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="a25">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="6"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="a24">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="5"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="a24ActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="a23">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="4"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="a35">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="8"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="a87">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="3"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="a87ActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="a67">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="6"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="a67ActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="a86">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="2"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="a08">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="6"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="a66">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="5"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="a68">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="4"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="a17">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="8"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="a18">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="9"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="a18ActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="a16">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="7"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="a58">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="2"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="a47">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="7"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="a48">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="8"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="a48ActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="a28">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="3"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="a27">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="2"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="a27ActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="a26">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="1"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="a38">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="5"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="a06">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="4"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="a46">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="9"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="a57">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="1"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="a57ActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="a37">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="4"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="a37ActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="a56">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="3"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="a36">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="6"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="a88">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="1"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="a77">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="9"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="a78">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="7"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="a78ActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="a07">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="5"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="a07ActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="a76">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="8"/>
-        <Property name="enabled" type="boolean" value="false"/>
-      </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="jButton1">
       <Properties>

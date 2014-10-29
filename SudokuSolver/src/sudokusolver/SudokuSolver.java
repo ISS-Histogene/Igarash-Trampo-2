@@ -20,6 +20,7 @@ public class SudokuSolver {
 
     private static Celula[][] sudoku;
     private static HashMap<ArrayList<Integer>, Celula> blankcells;
+    private static SudokuInterface interfacee;
 
 
     public Celula[][] getSudoku() {
@@ -29,10 +30,11 @@ public class SudokuSolver {
     public static void SudokuSolver(String[][] matriz, SudokuInterface inter){
         sudoku = new Celula[9][9];
         blankcells = new HashMap();
+        interfacee = inter;
         jogo(matriz);
 
         Estado estadox = new Estado(sudoku, blankcells, null);
-        resolvedor(estadox, 1);
+        resolvedor(estadox);
     }
   
     public static void jogo(String[][] matriz){
@@ -55,32 +57,26 @@ public class SudokuSolver {
         }
     }
     
-    public static void resolvedor(Estado testarestado, int valoratual){
-
+    public static void resolvedor(Estado testarestado){
         if(testarestado.getBlankcells().isEmpty()){
             JOptionPane.showMessageDialog(null, "Resolvido");
+            interfacee.preencher(testarestado.getMatriz());
+            return;
         }
-        else if(valoratual<=9){
-            System.out.println("restantes: "+testarestado.getBlankcells().size());
-
-            Estado estadonovo = copiarEstado(testarestado);
-            ArrayList chavecelula = estadonovo.getBlankcells().keySet().iterator().next();
-            Celula celulatestar = estadonovo.getBlankcells().get(chavecelula);
-            celulatestar.setNumero(valoratual);
-            Celula celulat = estadonovo.getMatriz()[celulatestar.getLinha()][celulatestar.getColuna()];
-            celulat.setNumero(valoratual);
-            estadonovo.getBlankcells().remove(chavecelula);
-            if(!(conflitos(estadonovo.getMatriz()))){
-                resolvedor(estadonovo, 1);
+        else {
+            for(int t = 1; t<=9; t++){
+                System.out.println("restantes: "+testarestado.getBlankcells().size());   
+                ArrayList chavecelula = testarestado.getBlankcells().keySet().iterator().next();
+                Celula celulatestar = testarestado.getBlankcells().get(chavecelula);
+                celulatestar.setNumero(t);
+                if(!(conflitos(testarestado.getMatriz()))){
+                    System.out.println(chavecelula);
+                    testarestado.getBlankcells().remove(chavecelula);
+                    resolvedor(testarestado);
+                }
             }
-            else{
-                resolvedor(testarestado, valoratual++);
-            }
-
         }
-        else{
-            resolvedor(testarestado.getEstadoanterior(), valoratual++);
-        }
+ 
 
     }
 
