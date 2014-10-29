@@ -57,6 +57,17 @@ public class SudokuSolver {
         }
     }
     
+    public static void resolvedor2(Estado estado){
+        int valor = 1;
+        Estado atual = estado;
+        while(!(atual.getBlankcells().isEmpty())){
+            ArrayList<Integer> chave = estado.getBlankcells().keySet().iterator().next();
+            Celula celula = estado.getBlankcells().get(chave);
+            
+        }
+    }
+    
+    
     public static void resolvedor(Estado testarestado){
         if(testarestado.getBlankcells().isEmpty()){
             JOptionPane.showMessageDialog(null, "Resolvido");
@@ -79,7 +90,8 @@ public class SudokuSolver {
  
 
     }
-
+    
+    
         
         
   
